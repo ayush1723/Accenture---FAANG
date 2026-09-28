@@ -1,0 +1,1 @@
+{"name":"Local: Soft_Drinking","url":"/Users/ayushyadav/Documents/Code/Codeforces/Soft_Drinking.cpp","tests":[{"id":1721488605193,"input":"5\n2\n2 1\n2\n1 1\n3\n3 3 3\n4\n3 3 4 4\n4\n1 2 2 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/Codeforces/Soft_Drinking.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Beautiful_Matrix","url":"/Users/ayushyadav/Downloads/Code/Codeforces/Beautiful_Matrix.cpp","tests":[{"id":1698057247281,"input":"0 0 0 0 0\n0 0 0 0 0\n0 1 0 0 0\n0 0 0 0 0\n0 0 0 0 0","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Downloads/Code/Codeforces/Beautiful_Matrix.cpp","group":"local","local":true}

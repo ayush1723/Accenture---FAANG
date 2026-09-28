@@ -1,0 +1,1 @@
+{"name":"Local: Worms","url":"/Users/ayushyadav/Documents/Code/Codeforces/Worms.cpp","tests":[{"id":1708175858006,"input":"5\n2 7 3 4 9\n3\n1 25 11","output":"1\n5\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/Codeforces/Worms.cpp","group":"local","local":true}

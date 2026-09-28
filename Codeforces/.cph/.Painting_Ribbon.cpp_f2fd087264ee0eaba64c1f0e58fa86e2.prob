@@ -1,0 +1,1 @@
+{"name":"Local: Painting_Ribbon","url":"/Users/ayushyadav/Documents/Code/Codeforces/Painting_Ribbon.cpp","tests":[{"id":1712998258019,"input":"5\n1 1 1\n5 1 1\n5 2 1\n5 2 2\n5 5 3\n","output":"NO\nNO\nYES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/Codeforces/Painting_Ribbon.cpp","group":"local","local":true}

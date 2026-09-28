@@ -1,0 +1,1 @@
+{"name":"Local: check_it_out","url":"/Users/ayushyadav/Downloads/Code/Codeforces/check_it_out.cpp","tests":[{"id":1701876362156,"input":"3\n1\n6\n15","output":"-1\n2 2 2\n5 5 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Downloads/Code/Codeforces/check_it_out.cpp","group":"local","local":true}

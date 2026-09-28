@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple To-Do</title>
+  <style>
+    /* Page background color */
+    :root {
+      --page-bg: #f0f7ff;      /* light blue page background */
+      --card-bg: #ffffff;      /* card background */
+      --accent: #4f46e5;       /* accent / checkbox color */
+      --done: #9aa6c7;         /* done item text color */
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg, var(--page-bg) 0%, #eef6ff 100%); /* subtle gradient */
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .container{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      box-sizing:border-box;
+    }
+
+    .todo-card{
+      width:100%;
+      max-width:420px;
+      background:var(--card-bg);
+      border-radius:12px;
+      box-shadow:0 8px 30px rgba(38,50,80,0.08);
+      padding:20px 20px 24px;
+      box-sizing:border-box;
+    }
+
+    .todo-card h1{
+      margin:0 0 12px;
+      font-size:20px;
+      letter-spacing:0.2px;
+      color:#0f172a;
+    }
+
+    .subtitle{
+      margin:0 0 18px;
+      font-size:13px;
+      color:#475569;
+      opacity:.9;
+    }
+
+    ul.todo-list{
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:grid;
+      gap:10px;
+    }
+
+    /* Hide native checkbox but keep it accessible */
+    .todo-list input[type="checkbox"]{
+      position:absolute;
+      opacity:0;
+      pointer-events:none;
+      width:0;
+      height:0;
+    }
+
+    /* Each item layout */
+    .item{
+      position:relative;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px 12px;
+      border-radius:9px;
+      transition:background .18s, transform .08s;
+      cursor:pointer;
+    }
+
+    /* faux checkbox */
+    .box{
+      width:18px;
+      height:18px;
+      border-radius:4px;
+      border:2px solid rgba(15,23,42,0.12);
+      display:inline-grid;
+      place-items:center;
+      flex:0 0 18px;
+      transition:background .12s, border-color .12s;
+    }
+
+    /* label text */
+    .label{
+      user-select:none;
+      color:#0f172a;
+      font-size:15px;
+    }
+
+    /* checked state styling using sibling selector */
+    input[type="checkbox"]:checked + .item .box{
+      background:var(--accent);
+      border-color:var(--accent);
+      box-shadow:0 2px 6px rgba(79,70,229,0.18);
+    }
+
+    input[type="checkbox"]:checked + .item .box::after{
+      content: "✓";
+      color:white;
+      font-size:12px;
+      line-height:1;
+    }
+
+    input[type="checkbox"]:checked + .item .label{
+      color: var(--done);
+      text-decoration: line-through;
+      opacity:0.85;
+    }
+
+    /* subtle hover */
+    .item:hover{
+      transform:translateY(-1px);
+      background:rgba(15,23,42,0.02);
+    }
+
+    /* small helper footer */
+    .footer{
+      margin-top:16px;
+      font-size:12px;
+      color:#64748b;
+      text-align:center;
+    }
+
+    /* responsive smaller screens */
+    @media (max-width:420px){
+      .todo-card{ padding:16px; border-radius:10px; }
+      .label{ font-size:14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="todo-card" aria-labelledby="todo-title">
+      <h1 id="todo-title">Today — To-Do</h1>
+      <p class="subtitle">Mark tasks complete by clicking the box (no JavaScript required).</p>
+
+      <ul class="todo-list">
+        <!-- Each checkbox input is followed by a label that contains the visible item (.item).
+             Clicking the label toggles the checkbox and CSS shows the checked state. -->
+        <li>
+          <input id="t1" type="checkbox" />
+          <label for="t1" class="item" aria-hidden="true">
+            <span class="box" aria-hidden="true"></span>
+            <span class="label">Finish project README</span>
+          </label>
+        </li>
+
+        <li>
+          <input id="t2" type="checkbox" />
+          <label for="t2" class="item" aria-hidden="true">
+            <span class="box" aria-hidden="true"></span>
+            <span class="label">Push code to repository</span>
+          </label>
+        </li>
+
+        <li>
+          <input id="t3" type="checkbox" />
+          <label for="t3" class="item" aria-hidden="true">
+            <span class="box" aria-hidden="true"></span>
+            <span class="label">Write unit tests</span>
+          </label>
+        </li>
+
+        <li>
+          <input id="t4" type="checkbox" />
+          <label for="t4" class="item" aria-hidden="true">
+            <span class="box" aria-hidden="true"></span>
+            <span class="label">Review PRs</span>
+          </label>
+        </li>
+      </ul>
+
+      <div class="footer">Tip: To add interactivity (add/remove items) I can show you a tiny JavaScript snippet.</div>
+    </section>
+  </div>
+</body>
+</html>

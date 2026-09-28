@@ -1,0 +1,1 @@
+{"name":"Local: Yet_another_Matrix","url":"/Users/ayushyadav/Documents/Code/codechef/Yet_another_Matrix.cpp","tests":[{"id":1704139681775,"input":"2\n2\n3","output":"-1\n9 1 7\n5 4 8\n6 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/codechef/Yet_another_Matrix.cpp","group":"local","local":true}

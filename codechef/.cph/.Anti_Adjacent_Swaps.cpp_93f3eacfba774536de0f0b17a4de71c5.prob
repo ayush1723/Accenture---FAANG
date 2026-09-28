@@ -1,0 +1,1 @@
+{"name":"Local: Anti_Adjacent_Swaps","url":"/Users/ayushyadav/Documents/Code/codechef/Anti_Adjacent_Swaps.cpp","tests":[{"id":1708149484187,"input":"3\n2\n3 5\n2\n5 3\n3\n6 6 2","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/codechef/Anti_Adjacent_Swaps.cpp","group":"local","local":true}

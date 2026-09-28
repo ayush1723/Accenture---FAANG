@@ -1,0 +1,1 @@
+{"name":"Local: intro","url":"/Users/ayushyadav/Documents/Code/c++/binary_search_TLE/intro.cpp","tests":[{"id":1702392484409,"input":"9 3\n10 20 30 40 50 60 70 80 90","output":"170"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/c++/binary_search_TLE/intro.cpp","group":"local","local":true}

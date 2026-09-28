@@ -1,0 +1,1 @@
+{"name":"Local: Floor_Number","url":"/Users/ayushyadav/Downloads/Code/Codeforces/Floor_Number.cpp","tests":[{"id":1698773000324,"input":"4\n7 3\n1 5\n22 5\n987 13","output":"3\n1\n5\n77"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Downloads/Code/Codeforces/Floor_Number.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Shoe_Shuffling","url":"/Users/ayushyadav/Documents/Code/Codeforces/Shoe_Shuffling.cpp","tests":[{"id":1713869756219,"input":"2\n5\n1 1 1 1 1\n6\n3 6 8 13 15 21\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/Codeforces/Shoe_Shuffling.cpp","group":"local","local":true}

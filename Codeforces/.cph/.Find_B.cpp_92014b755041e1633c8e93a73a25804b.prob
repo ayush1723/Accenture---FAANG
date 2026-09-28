@@ -1,0 +1,1 @@
+{"name":"Local: Find_B","url":"/Users/ayushyadav/Documents/Code/Codeforces/Find_B.cpp","tests":[{"id":1708953830169,"input":"1\n5 4\n1 2 1 4 5\n1 5\n4 4\n3 4\n1 3","output":"YES\nNO\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ayushyadav/Documents/Code/Codeforces/Find_B.cpp","group":"local","local":true}
