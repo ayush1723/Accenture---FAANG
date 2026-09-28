@@ -108,6 +108,8 @@ BinaryTreeNode *LevelWise() {
         }
     }
 
+    return 0;
+
     return root;
 }
 
